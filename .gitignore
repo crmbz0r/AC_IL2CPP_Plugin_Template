@@ -25,7 +25,9 @@
 *.la
 *.a
 *.lib
-
+*.specstory
+.specstory
+.github
 # Executables
 *.exe
 *.out
