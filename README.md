@@ -1,4 +1,4 @@
-# AC_DLSS - AiComi Plugin Template
+# AC_Plugin_Template - AiComi Plugin Template
 
 This is a template for developing BepInEx plugins for **AiComi** using IL2CPP and .NET 6.0.
 
