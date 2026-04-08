@@ -2,11 +2,19 @@
 
 This is a template for developing BepInEx plugins for **AiComi** using IL2CPP and .NET 6.0.
 
+>[!CAUTION]
+> THIS TEMPLATE IS KINDA - ***WORK IN PROGRESS*** -    
+> I WILL VERY LIKELY DO SOME MAYOR CHANGES TO THE TEMPLATE AT SOME POINT.  
+> THE CURRENT TEMPLATE IS FAR FROM PERFECT, BUT SHOULD BE USABLE NONETHELESS!  
+> THE PLUGIN STRUCTURE USED FOR THE TEMPLATE AT THE MOMENT IS FAR TOO COMPLEX.  
+> 80% OF THE STUFF IS JUST BLOATING THE TEMPLATE AND WOULD NOT BE NEEDED FOR A WORKING PLUGIN!  
+> WHENEVER I WILL UPDATE THE PRESET - IT'S GOING TO BE A LOT SIMPLER AND EASIER FOR BEGINNERS TO UNDERSTAND.  
+
 ## Quick Start
 
 1. Rename the project folders and files from `ExamplePlugin` → `AC_YourPluginName`
 2. Update the namespace in `ExamplePlugin.cs` from `AC_ExamplePlugin` to `AC_YourPluginName`
-3. Update the `GUID` and `PluginName` constants
+AY S3. Update the `GUID` and `PluginName` constants
 4. Update the output path in `PluginCode.csproj` if needed
 5. Build and the plugin will auto-deploy to `bin/BepInEx/plugins/`
 
